@@ -15,6 +15,8 @@
 - Main work area
 - Settings
 
+Take 5 mins to read what each UI section means: [here](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-ui.html#studio-ui-browser ) 
+
 ## 2. Simple Tasks to carry out
 ### 2.1 Upload a file
 - Create a plain text file with your name on it and title it **"your_name.txt"**, content of the file should just be your email address.
