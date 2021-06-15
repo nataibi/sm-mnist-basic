@@ -22,6 +22,8 @@
 - In the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
 - In the file browser, choose the Upload Files icon ( ![alt text](imgs/3002.png) ).
 - Select the files you want to upload and then choose Open.
+- You should now have this directory structure (after completing pre-req step 0)
+ ![alt text](imgs/3004.png)
 - Double-click a file to open the file in a new tab in Studio.
 ### 2.2 Clone a git repository
 - In the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
