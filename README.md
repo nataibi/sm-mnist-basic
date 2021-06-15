@@ -2,6 +2,7 @@
  ![alt text](imgs/w.png)
 # learning outcome from this lab
 - Navigate Sagemaker studio and familiarise yourself with all the necessary functionalities for completing today's labs
+- Making a Binary Prediction of Whether a Handwritten Digit is a 0
 
 ## 0. Prerequisite
 - Make sure you have completed this pre-req [from the SageMaker immersion day workshop](https://sagemaker-immersionday.workshop.aws/prerequisites/option1.html ) 
