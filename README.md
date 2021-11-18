@@ -4,41 +4,45 @@
 - Navigate Sagemaker studio and familiarise yourself with all the necessary functionalities for completing today's labs
 - Making a Binary Prediction of Whether a Handwritten Digit is a 0
 
-## 0. Prerequisite
-- Make sure you have completed this pre-req [from the SageMaker immersion day workshop](https://sagemaker-immersionday.workshop.aws/prerequisites/option1.html ) 
-- Read each cell description
-- Launch one cell at a time.
-- While waiting for the training, try and explore the Sagemaker console
+## 0. Creating a Sagemaker Studio instance
+- In the console, go to the search bar at the top and type Sagemaker
+- Click on Amazon SageMaker.
+- Under **Get Started**, click on Sagemaker Studio
+- Under **User Profile** , type your name in the **Name** field
+- Under **Default Execution Role**, click on **Create a new role**
+- A **Create an IAM Role** window pops up, change to **Any S3 bucket**, leave the rest as default and click **Create Role**
+- Save and create the studio, this step will take few mins, notice the **Pending** status
+- Once the sutudio is ready, under **Launch App** dropdown box, choose **Studio**
+- The studio will take 2-4 mins to launch 
+- 
 ## 1. Amazon SageMaker Studio UI Overview
+- Take 5 mins to read what each UI section means: [here](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-ui.html#studio-ui-browser ) 
 - Explore the Left sidebar
 - File and resource browser
 - Main work area
 - Settings
 
-Take 5 mins to read what each UI section means: [here](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-ui.html#studio-ui-browser ) 
 
 ## 2. Simple Tasks to carry out
 ### 2.1 Upload a file
-- Create a plain text file with your name on it and title it **"your_name.txt"**, content of the file should just be your email address.
-- To upload files to your home directory
-- In the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
-- In the file browser, choose the Upload Files icon ( ![alt text](imgs/3002.png) ).
-- Select the files you want to upload and then choose Open.
-- You should now have this directory structure (after completing pre-req step 0)
+- Create a plain text file with your name on it and title it **"your_name.txt"**, store it on your desktop, content of the file should just be your email address.
+- Upload the file **"your_name.txt"** from your Desktop by:
+- - On the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
+- - On the file browser, choose the Upload Files icon ( ![alt text](imgs/3002.png) ).
+- - Select the **"your_name.txt"** and then choose Open.
+- You should now have this directory structure (name will be different) (after completing pre-req step 0)
  ![alt text](imgs/3004.png)
 - Double-click a file to open the file in a new tab in Studio.
 ### 2.2 Clone a git repository
-- In the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
-- Choose the root folder or the folder you want to clone the repo into.
-- In the left sidebar, choose the Git icon ( ![alt text](imgs/3003.png) ).
+- On the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
+- Make sure your file **"your_name.txt"** is visible
+- On the left sidebar, choose the Git icon ( ![alt text](imgs/3003.png) ).
 - Choose Clone a Repository.
 - Enter the URI for the SageMaker examples repo https://github.com/nataibi/sm-mnist-basic.git
 - Choose CLONE.
-- If the repo requires credentials, you are prompted to enter your username and password.
 - Wait for the download to finish. After the repo has been cloned, the File Browser opens to display the cloned repo.
 - Double click the repo to open it.
-- Choose the Git icon to view the Git user interface which now tracks the examples repo.
-- To track a different repo, open the repo in the file browser and then choose the Git icon.
+- Choose the Git icon on the left side bar to view the Git user interface which now tracks the changes for the repo.
 
 ## 3. Launch the MNIST example 
 - From the pre-req step (0) and step 2.2 you should now see two directories on the left sidebar
