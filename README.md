@@ -1,5 +1,5 @@
 # LAB1: Overview Of SageMaker Studio
- ![alt text](imgs/w.png)
+
 # learning outcome from this lab
 - Navigate Sagemaker studio and familiarise yourself with all the necessary functionalities for completing today's labs
 - Making a Binary Prediction of Whether a Handwritten Digit is a 0
@@ -8,11 +8,16 @@
 - In the console, go to the search bar at the top and type Sagemaker
 - Click on Amazon SageMaker.
 - Under **Get Started**, click on Sagemaker Studio
+-  ![alt text](imgs/sgm-01.png) 
 - Under **User Profile** , type your name in the **Name** field
+-  ![alt text](imgs/sgm-02.png) 
 - Under **Default Execution Role**, click on **Create a new role**
+-  ![alt text](imgs/sgm-03.png) 
 - A **Create an IAM Role** window pops up, change to **Any S3 bucket**, leave the rest as default and click **Create Role**
+-  ![alt text](imgs/sgm-04.png) 
 - Save and create the studio, this step will take few mins, notice the **Pending** status
 - Once the sutudio is ready, under **Launch App** dropdown box, choose **Studio**
+-  ![alt text](imgs/sgm-05.png) 
 - The studio will take 2-4 mins to launch 
 - 
 ## 1. Amazon SageMaker Studio UI Overview
@@ -28,17 +33,18 @@
 - Create a plain text file with your name on it and title it **"your_name.txt"**, store it on your desktop, content of the file should just be your email address.
 - Upload the file **"your_name.txt"** from your Desktop by:
 - - On the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
-- - On the file browser, choose the Upload Files icon ( ![alt text](imgs/3002.png) ).
+- - On the file browser, choose the Upload Files icon  ![alt text](imgs/3002.png) .
 - - Select the **"your_name.txt"** and then choose Open.
 - You should now have this directory structure (name will be different) (after completing pre-req step 0)
  ![alt text](imgs/3004.png)
 - Double-click a file to open the file in a new tab in Studio.
 ### 2.2 Clone a git repository
-- On the left sidebar, choose the File Browser icon ( ![alt text](imgs/3001.png) ).
+- On the left sidebar, choose the File Browser icon  ![alt text](imgs/3001.png) .
 - Make sure your file **"your_name.txt"** is visible
 - On the left sidebar, choose the Git icon ( ![alt text](imgs/3003.png) ).
 - Choose Clone a Repository.
 - Enter the URI for the SageMaker examples repo https://github.com/nataibi/sm-mnist-basic.git
+-  ![alt text](imgs/sgm-06.png) 
 - Choose CLONE.
 - Wait for the download to finish. After the repo has been cloned, the File Browser opens to display the cloned repo.
 - Double click the repo to open it.
